@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/marvel"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#1CCA1C"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_title" />
+
+    <EditText
+        android:paddingLeft="16dp"
+        android:textColorHint="#F44336"
+        android:layout_marginTop="30dp"
+        android:textColor="#E91E63"
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:paddingLeft="16dp"
+        android:textColorHint="#F44336"
+        android:layout_marginTop="30dp"
+        android:textColor="#E91E63"
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:paddingLeft="16dp"
+        android:textColorHint="#F44336"
+        android:layout_marginTop="30dp"
+        android:textColor="#E91E63"
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_ID"
+        android:inputType="number" />
+
+    <EditText
+
+        android:paddingLeft="16dp"
+        android:textColorHint="#F44336"
+        android:layout_marginTop="30dp"
+        android:textColor="#E91E63"
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:paddingLeft="16dp"
+        android:textColorHint="#F44336"
+        android:layout_marginTop="30dp"
+        android:textColor="#E91E63"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:textStyle="bold|italic"
+            android:textColor="#798877"
+            android:backgroundTint="#9C27B0"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Register" />
+
+        <Button
+            android:textStyle="bold|italic"
+            android:textAllCaps="false"
+            android:textColor="#096056"
+            android:backgroundTint="#BF2ABF"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Login" />
+    </LinearLayout>
+
+</LinearLayout>
